@@ -1,0 +1,14 @@
+<div class="card mr-20 w-18">
+  <h3 class="card-text text-center my-0 py-20">Plaintext</h3>
+  <textarea  #t
+    name="plaintext"
+    data-test-id="plaintext"
+    rows={{6}}
+    cols={{30}}
+    placeholder="Enter plaintext"
+    class="mx-25 mb-25"
+    data-test-id="plain-text"
+    (click)="newText(t.value)"
+  >
+  </textarea>
+</div>
